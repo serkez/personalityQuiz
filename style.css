@@ -1,0 +1,47 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://cdn.glitch.com/61e99d99-f61d-4400-8bd2-f42ef3809dca%2Fbook-background-3.jpg?v=1597894565484);
+}
+
+h1 {
+  font-style: italic;
+  color: #6C2228;
+  text-align: center;
+  font-size: 70px;
+}
+
+h2 {
+  margin-top: 2em;
+  text-align: center;
+  color: #993E45;
+  font-size: 40px;
+}
+
+.question {
+  display: flex;
+  /*   flex-direction: column; */
+  margin-top: 2em;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.answer-choice img {
+  height: 15em;
+  width: 17em;
+}
+
+.answer-choice button {
+  border: 5px solid #46161A;
+  background-color: transparent;
+  padding-top: 4px;
+}
+
+.b1 {
+}
+
+#book-pic {
+  text-align: center;
+}
